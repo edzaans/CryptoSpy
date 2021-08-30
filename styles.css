@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h3 {
+    color: rgb(83, 81, 81);
+}
+
+.test {
+    background: rgb(230, 96, 96);
+}
+
+.main{
+    background: rgba(25, 198, 198, 0.9);
+    width: 400px;
+    min-height: 300px;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  p {
+      color: white;
+  }
+
+  button {
+      border-radius: 5px;
+      width: 50px;
+  }
+
+  #result {
+      color: rgb(0, 47, 255);
+      height: 30px;
+  }
+
+  #pair {
+      font-size: 1.2em;
+    color: rgb(252, 7, 7);
+    height: 30px;
+}
+
+#selectCurrency {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#testSelect{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Animated text styles */
+#spinner {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 2em
+}
+#spinner:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: rgb(5, 119, 43);
+    animation: loading 1.5s linear infinite;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Crypto Ticker</title>
+
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="assets/Blockchain-bg.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+
+   <div class="container main">
+
+        <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+                <h1 class="mt-3">Crypto SPY</h1>
+            </div>
+        </div>
+
+        <!-- Row for Select Menus -->
+        <div class="row d-flex justify-content-center">
+            <div class="row mt-2 d-flex justify-content-center ">
+                <div class="col-6 d-flex justify-content-center">
+                    <p class="fs-4 mx-2">Choose pair</p>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <select class="col-4 d-flex justify-content-center" id="testSelect">
+                    <option selected>Crypto</option>
+                </select>
+            </div>
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <select class="col-4 d-flex justify-content-center" id="selectCurrency">
+                    <option selected>Currency</option>
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                  </select>
+            </div>
+        </div>
+ 
+
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-2 ">
+                <button id="check" class="button btn-success">GO</button>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 d-flex justify-content-center">
+                <h3>Exchange rate</h3>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <h3 id="pair"></h3>
+                <h1 id="spinner" data-text="Waiting...">Waiting...</h1>
+            </div>
+        </div>
+        
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 d-flex justify-content-center">
+                <h3 id="result"></h3>
+                <div class="d-flex justify-content-center">
+                
+            </div>
+        </div>
+</div>
+
+   <!--  Crypto WIDGET for testing  -->
+<!--    <div class="widget row d-flex justify-content-center mt-5">
+    <div class="col-6">
+        <script type="text/javascript">
+            crypt_single_base_currency = "Bitcoin (BTC)";crypt_single_target_currency = "US Dollar (USD)";crypt_single_background_color = "#03FCF5 ";crypt_single_transperency = false;crypt_single_font_family = "Tahoma";crypt_single_font_size = "large";crypt_single_font_color = "#5D5151 ";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/single_widget.js"></script>
+    </div>
+</div> -->
+
+
+    <script src="index.js"></script>
+     <!-- ONLOAD function -->
+     <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded",top20());
+    </script>
+    
+</body>
+</html>
