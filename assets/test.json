@@ -1,0 +1,172 @@
+{
+    "rows": [
+      {
+        "code": "007",
+        "name": "007",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "1337",
+        "name": "1337",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "1IN",
+        "name": "1IN",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "1INCH",
+        "name": "1INCH",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "20B",
+        "name": "20B",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "20E",
+        "name": "20E",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "20U",
+        "name": "20U",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "2BT",
+        "name": "2BT",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "32BIT",
+        "name": "32BIT",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "404",
+        "name": "404",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "4ART",
+        "name": "4ART",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "9BT",
+        "name": "9BT",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "9ET",
+        "name": "9ET",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "9US",
+        "name": "9US",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "AAA",
+        "name": "AAA",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "AAB",
+        "name": "AAB",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "AAPL",
+        "name": "AAPL",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "AAV",
+        "name": "AAV",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "AAVE",
+        "name": "AAVE",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "ABB",
+        "name": "ABB",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "ABBC",
+        "name": "ABBC",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "ABNB",
+        "name": "ABNB",
+        "statuses": [
+          "primary"
+        ]
+      },
+      {
+        "code": "ABT",
+        "name": "ABT",
+        "statuses": [
+          "secondary"
+        ]
+      },
+      {
+        "code": "ABYSS",
+        "name": "ABYSS",
+        "statuses": [
+          "primary"
+        ]
+      }
+    ]
+}
